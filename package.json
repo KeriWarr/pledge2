@@ -1,0 +1,30 @@
+{
+  "name": "pledge",
+  "version": "0.0.0",
+  "description": "Make wagers!",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "oauth": "^0.9.15",
+    "querystring": "^0.2.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "slack",
+    "splitwise"
+  ],
+  "author": "Keri Warr",
+  "license": "MIT"
+}
